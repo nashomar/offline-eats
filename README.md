@@ -12,7 +12,8 @@
 
 ### 🖼️ Preview
 
-![Screenshot of OfflineEats app](https://nashomar.github.io/offline-eats/screenshot.png)
+
+![image](https://github.com/user-attachments/assets/f82f67a8-c4f2-45eb-92dd-6d243da2c72f)
 
 
 
