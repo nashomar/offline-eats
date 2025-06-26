@@ -1,20 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang='en'>
 <head>
   <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OfflineEats</title>
   <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-  <h1>OfflineEats </h1>
-  <p id='date'></p>
-  <input type='text' id='foodInput' placeholder='Add food item'>
-  <button onclick='addFood()'>Add</button>
-  <ul id='foodList'></ul>
+  <div class="container">
+    <h1>OfflineEats</h1>
+    <p id='date'></p>
+    
+    <input type='text' id='foodInput' placeholder='Add food item'>
+    <button onclick='addFood()'>Add</button>
+    
+    <ul id='foodList'></ul>
+
+    <footer>
+      <p>Created by <strong>3Nova</strong> 💡</p>
+      <p>Contact us for more info | Available items shown from: <strong>Lidl</strong>, <strong>Willys</strong>, and <strong>Coop</strong></p>
+    </footer>
+  </div>
+
   <script src='script.js'></script>
-  <footer>
-  <p>Created by <strong>3Nova</strong> 💡</p>
-  <p>Contact us for more info | Available items shown from: <strong>Lidl</strong>, <strong>Willys</strong>, and <strong>Coop</strong></p>
-</footer>
 </body>
 </html>
